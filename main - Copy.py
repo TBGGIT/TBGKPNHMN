@@ -170,7 +170,10 @@ def ver_csv(nombre):
     <div class="table-container">
         <h2>📊 Análisis emocional — {{ nombre }}</h2>
         <div class="mb-5 text-center">
-
+            <h5>Gráfico de Radar: Emociones Promedio</h5>
+            <div style="width: 200px; height: 200px; margin: auto;">
+                <canvas id="radarChart"></canvas>
+            </div>
         </div>
         <h6 style="text-align:center; margin-bottom: 30px; color: #555;">
             {{ valence_text }}
