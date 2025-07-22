@@ -245,7 +245,7 @@ def ver_csv(nombre):
 
         <hr>
         <h2>📄 Contenido completo del archivo</h2>
-        {{ table|safe }}
+        
 
         <br><a href="/" class="btn btn-secondary">← Regresar</a>
     </div>
